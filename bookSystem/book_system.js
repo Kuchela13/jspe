@@ -35,3 +35,9 @@ let books = [];
             document.getElementById('bookDescription').value = '';
             document.getElementById('pagesNumber').value = '';
  }
+
+ function deletebook() {
+    <button onclick="......")">Delete</button>);
+    books.splice(index, 1);
+    showbooks();
+ }
